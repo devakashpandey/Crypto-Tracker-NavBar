@@ -1,0 +1,14 @@
+.banner{
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-Content{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  justify-content: space-around;
+ 
+}
