@@ -1,6 +1,6 @@
 .banner{
   background-image: url("../assets/banner.jpg");
-  background-size: cover;
+  /* background-size:cover; */
   background-position: center;
 }
 
@@ -10,5 +10,20 @@
   flex-direction: column;
   padding-top: 30px;
   justify-content: space-around;
- 
+}
+
+.headline{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 40%;
+  font-family: "Montserrat" ;
+  font-size: 30px;
+}
+
+.headline > p{
+  text-align: center;
+  font-size: 18px;
+  color: grey;
 }
